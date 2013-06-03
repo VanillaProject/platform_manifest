@@ -113,7 +113,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="github" revision="jellybean"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-linaro-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.7" remote="github" revision="jellybean"/>
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="jellybean"/>
-  <project path="vendor/aosp" name="vendor_aosp" remote="vp" revision="master" />
+  <project path="vendor/aosp" name="platform_vendor_aosp" remote="vp" revision="master" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="vp" revision="master" />
   <project path="device/htc/m7" name="platform_device_htc_m7" remote="vp" revision="master" />
   <project path="device/htc/m7-common" name="platform_device_htc_m7-common" remote="vp" revision="master" />
