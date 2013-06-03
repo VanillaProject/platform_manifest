@@ -121,7 +121,7 @@
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="vp" revision="master" />
   <project path="device/htc/m7" name="platform_device_htc_m7" remote="vp" revision="master" />
   <project path="device/htc/m7-common" name="platform_device_htc_m7-common" remote="vp" revision="master" />
-  <project path="device/htc/msm8960-common" name=" platform_device_htc_msm8960-common" remote="vp" revision="master" />
+  <project path="device/htc/msm8960-common" name="platform_device_htc_msm8960-common" remote="vp" revision="master" />
   
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="vp" revision="cm-10.1" />
   
