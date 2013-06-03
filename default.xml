@@ -4,6 +4,10 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+           
+  <remote  name="vp"
+           fetch="git://github.com/VanillaProject/"         
+           
   <remote  name="github"
            fetch="git://github.com/Evervolv/"
            review="review.evervolv.com"/>
