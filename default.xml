@@ -18,7 +18,7 @@
            sync-j="4" />
 
 
-  <!--Evervolv AOSP Projects-->
+ 
   <project path="build" name="android_build" remote="github" revision="jellybean">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -93,8 +93,8 @@
   <project path="system/vold" name="android_system_vold" remote="github" revision="jellybean" />
 
 
-  <!--Evervolv Extra Projects-->
-  <project path="android" name="android" remote="github" revision="jellybean" />
+  
+  <project path="platform_manifest" name="platform_manifest" remote="vp" revision="master" />
   <project path="external/bash" name="android_external_bash" remote="github" revision="jellybean" />
   <project path="external/busybox" name="android_external_busybox" remote="github" revision="jellybean" />
   <project path="external/compat-wireless-3.5-rc3-1-sn" name="android_external_compat-wireless-3.5-rc3-1-sn" remote="github" revision="jellybean" />
@@ -117,14 +117,9 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="github" revision="jellybean"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-linaro-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.7" remote="github" revision="jellybean"/>
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="jellybean"/>
-  <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="jellybean" />
+  <project path="vendor/aosp" name="platform_vendor_aosp" remote="vp" revision="master" />
 
-<!-- Tmobile Themes -->
-  <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="github" revision="jellybean"/>
-  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jellybean" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="github" revision="jellybean"/>
-  <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="github" revision="jellybean"/>
-  <project path="vendor/tmobile/themes/Androidian-6-100" name="theme-Androidian-6-100" remote="github" revision="jellybean"/>
+
 
   <!--Aosp-->
   <project path="abi/cpp" name="platform/abi/cpp" />
