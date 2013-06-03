@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
            
   <remote  name="vp"
-           fetch="git://github.com/VanillaProject/"         
+           fetch="git://github.com/VanillaProject/" />      
            
   <remote  name="github"
            fetch="git://github.com/Evervolv/"
