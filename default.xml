@@ -44,7 +44,7 @@
   <project path="hardware/ti/wlan" name="platform_hardware_ti_wlan" remote="vp" revision="master"/>
   <project path="libcore" name="platform_libcore" remote="vp" revision="master"/>
   <project path="packages/apps/Camera" name="platform_packages_apps_Camera" remote="vp" revision="master" />
-  <project path="packages/apps/Email" name="platform_packages_apps_Email" remote="vp" revision="master" />
+  <project path="packages/apps/Email2" name="platform_packages_apps_Email2" remote="vp" revision="master" />
   <project path="packages/apps/Gallery2" name="plaform_packages_apps_Gallery2" remote="vp" revision="master" />
   <project path="packages/apps/Launcher" name="platform_packages_apps_Launcher" remote="vp" revision="master" />
   <project path="packages/apps/Mms" name="platform_packages_apps_Mms" remote="vp" revision="master" />
