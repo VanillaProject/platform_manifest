@@ -73,7 +73,6 @@
   <project path="packages/apps/AndroidTerm" name="platform_packages_apps_AndroidTerm" remote="vp" revision="master"/>
   <project path="packages/apps/Torch" name="platform_packages_apps_Torch" remote="vp" revision="master"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="platform_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="vp" revision="master"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-linaro-4.7" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.7" remote="vp" revision="master"/>
   <project path="system/wlan/ti" name="master_system_wlan_ti" remote="vp" revision="master"/>
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="vp" revision="master" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="vp" revision="master" />
@@ -84,7 +83,6 @@
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="development" name="platform/development" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
-
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="device/common" name="device/common" />
