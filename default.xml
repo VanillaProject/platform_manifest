@@ -20,7 +20,6 @@
   </project>
   <project path="bionic" name="platform_bionic" remote="vp" revision="master"/>
   <project path="dalvik" name="platform_dalvik" remote="vp" revision="master"/>
-  <project path="device/generic/goldfish" name="platform_device_generic_goldfish" remote="vp" revision="master"/>
   <project path="external/v8" name="platform_external_v8" remote="vp" revision="master"/>
   <project path="external/webkit" name="platform_external_webkit" remote="vp" revision="master"/>
   <project path="frameworks/av" name="platform_frameworks_av" remote="vp" revision="master"/>
