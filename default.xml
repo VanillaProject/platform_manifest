@@ -49,17 +49,13 @@
   <project path="packages/apps/Phone" name="platform_packages_apps_Phone" remote="vp" revision="master" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="vp" revision="master" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="vp" revision="master" />
-
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="vp" revision="master" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="vp" revision="master" />
-
- 
   <project path="system/core" name="platform_system_core" remote="vp" revision="master" />
   <project path="system/extras" name="platform_system_extras" remote="vp" revision="master" />
- 
+  <project path="system/wlan/ti" name="platform_system_wlan_ti" remote="vp" revision="master" />
   <project path="platform_manifest" name="platform_manifest" remote="vp" revision="master" />
   <project path="external/bash" name="platform_external_bash" remote="vp" revision="master" />
- 
   <project path="external/htop" name="platform_external_htop" remote="vp" revision="master" />
   <project path="external/libncurses" name="platform_external_libncurses" remote="vp" revision="master" />
   <project path="external/nano" name="platform_external_nano" remote="vp" revision="master" />
