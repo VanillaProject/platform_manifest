@@ -43,7 +43,7 @@
   <project path="libcore" name="platform_libcore" remote="vp" revision="master"/>
   <project path="packages/apps/Camera" name="platform_packages_apps_Camera" remote="vp" revision="master" />
   <project path="packages/apps/Email2" name="platform_packages_apps_Email2" remote="vp" revision="master" />
-  <project path="packages/apps/Gallery2" name="plaform_packages_apps_Gallery2" remote="vp" revision="master" />
+  <project path="packages/apps/Gallery2" name="platorm_packages_apps_Gallery2" remote="vp" revision="master" />
   <project path="packages/apps/Launcher" name="platform_packages_apps_Launcher" remote="vp" revision="master" />
   <project path="packages/apps/Mms" name="platform_packages_apps_Mms" remote="vp" revision="master" />
   <project path="packages/apps/Phone" name="platform_packages_apps_Phone" remote="vp" revision="master" />
@@ -66,7 +66,6 @@
   <project path="hardware/gpsshim" name="platform_hardware_gpsshim" remote="vp" revision="master" />
   <project path="packages/apps/Torch" name="platform_packages_apps_Torch" remote="vp" revision="master"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="platform_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="vp" revision="master"/>
-  <project path="system/wlan/ti" name="master_system_wlan_ti" remote="vp" revision="master"/>
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="vp" revision="master" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="vp" revision="master" />
   <project path="device/htc/m7" name="platform_device_htc_m7" remote="vp" revision="master" />
