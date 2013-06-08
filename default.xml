@@ -20,61 +20,61 @@
   </project>
   <project path="bionic" name="platform_bionic" remote="vp" revision="master"/>
   <project path="dalvik" name="platform_dalvik" remote="vp" revision="master"/>
-  <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="github" revision="jellybean"/>
+  <project path="device/generic/goldfish" name="platform_device_generic_goldfish" remote="vp" revision="master"/>
   <project path="external/v8" name="platform_external_v8" remote="vp" revision="master"/>
   <project path="external/webkit" name="platform_external_webkit" remote="vp" revision="master"/>
   <project path="frameworks/av" name="platform_frameworks_av" remote="vp" revision="master"/>
   <project path="frameworks/base" name="platform_frameworks_base" remote="vp" revision="master"/>
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="vp" revision="master"/>
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="vp" revision="master"/>
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="github" revision="jellybean"/>
+  <project path="hardware/msm7k" name="platform_hardware_msm7k" remote="vp" revision="master"/>
+  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="vp" revision="master"/>
   <project path="hardware/qcom/audio-caf" name="platform_hardware_qcom_audio-caf" remote="vp" revision="master"/>
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="github" revision="jellybean" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="vp" revision="master"/>
+  <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" remote="vp" revision="master" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="vp" revision="master" />
   <project path="hardware/qcom/display-caf" name="platform_hardware_qcom_display-caf" remote="vp" revision="master" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="vp" revision="master"/>
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="vp" revision="master"/>
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="vp" revision="master"/>
-  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="github" revision="jellybean"/>
-  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/msm8960" name="platfrom_hardware_qcom_msm8960" remote="vp" revision="master"/>
+  <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="vp" revision="master"/>
+  <project path="hardware/qcom/sensors" name="platform_hardware_qcom_sensors" remote="vp" revision="master"/>
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="vp" revision="master"/>
+  <project path="hardware/ti/wlan" name="platform_hardware_ti_wlan" remote="vp" revision="master"/>
   <project path="libcore" name="platform_libcore" remote="vp" revision="master"/>
   <project path="packages/apps/Camera" name="platform_packages_apps_Camera" remote="vp" revision="master" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="github" revision="jellybean" />
+  <project path="packages/apps/Email" name="platform_packages_apps_Email" remote="vp" revision="master" />
   <project path="packages/apps/Gallery2" name="plaform_packages_apps_Gallery2" remote="vp" revision="master" />
   <project path="packages/apps/Launcher" name="platform_packages_apps_Launcher" remote="vp" revision="master" />
   <project path="packages/apps/Mms" name="platform_packages_apps_Mms" remote="vp" revision="master" />
   <project path="packages/apps/Phone" name="platform_packages_apps_Phone" remote="vp" revision="master" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="vp" revision="master" />
-  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="github" revision="jellybean" />
+  <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="vp" revision="master" />
 
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="github" revision="jellybean" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="github" revision="jellybean" />
+  <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="vp" revision="master" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="vp" revision="master" />
 
  
   <project path="system/core" name="platform_system_core" remote="vp" revision="master" />
   <project path="system/extras" name="platform_system_extras" remote="vp" revision="master" />
  
   <project path="platform_manifest" name="platform_manifest" remote="vp" revision="master" />
-  <project path="external/bash" name="android_external_bash" remote="github" revision="jellybean" />
+  <project path="external/bash" name="platform_external_bash" remote="vp" revision="master" />
  
-  <project path="external/htop" name="android_external_htop" remote="github" revision="jellybean" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="github" revision="jellybean" />
-  <project path="external/nano" name="android_external_nano" remote="github" revision="jellybean" />
-  <project path="external/rsync" name="android_external_rsync" remote="github" revision="jellybean" />
-  <project path="external/vim" name="android_external_vim" remote="github" revision="jellybean" />
-  <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="github" revision="jellybean"/>
-  <project path="hardware/atheros" name="android_hardware_atheros" remote="github" revision="jellybean" />
-  <project path="hardware/gpsshim" name="android_hardware_gpsshim" remote="github" revision="jellybean" />
-  <project path="packages/apps/AndroidTerm" name="android_packages_apps_AndroidTerm" remote="github" revision="jellybean"/>
-  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="github" revision="jellybean"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="github" revision="jellybean"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-linaro-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.7" remote="github" revision="jellybean"/>
-  <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="jellybean"/>
+  <project path="external/htop" name="platform_external_htop" remote="vp" revision="master" />
+  <project path="external/libncurses" name="platform_external_libncurses" remote="vp" revision="master" />
+  <project path="external/nano" name="platform_external_nano" remote="vp" revision="master" />
+  <project path="external/rsync" name="platform_external_rsync" remote="vp" revision="master" />
+  <project path="external/vim" name="platform_external_vim" remote="vp" revision="master" />
+  <project path="external/wpa_supplicant" name="platform_external_wpa_supplicant" remote="vp" revision="master" />
+  <project path="hardware/atheros" name="platform_hardware_atheros" remote="vp" revision="master" />
+  <project path="hardware/gpsshim" name="platform_hardware_gpsshim" remote="vp" revision="master" />
+  <project path="packages/apps/AndroidTerm" name="platform_packages_apps_AndroidTerm" remote="vp" revision="master"/>
+  <project path="packages/apps/Torch" name="platform_packages_apps_Torch" remote="vp" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="platform_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="vp" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-linaro-4.7" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.7" remote="vp" revision="master"/>
+  <project path="system/wlan/ti" name="master_system_wlan_ti" remote="vp" revision="master"/>
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="vp" revision="master" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="vp" revision="master" />
   <project path="device/htc/m7" name="platform_device_htc_m7" remote="vp" revision="master" />
@@ -115,7 +115,7 @@
   <project path="external/busybox" name="platform_external_busybox" remote="vp" revision="master" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
-  <project path="external/chromium" name="ParanoidAndroid/android_external_chromium" remote="github" revision="jellybean" />
+  <project path="external/chromium" name="platform_external_chromium" remote="vp" revision="master" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="platform/external/clang" />
@@ -130,7 +130,7 @@
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
-  <project path="external/elfutils" name="platform/external/elfutils" remote="aosp" revision="cd7a9917db9ad4a4f56cca5153ea2a7b8fecfde9" />
+  <project path="external/elfutils" name="platform/external/elfutils" remote="vp" revision="master" />
   <project path="external/eigen" name="platform/external/eigen" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
@@ -263,7 +263,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="ParanoidAndroid/android_frameworks_native" remote="github" revision="jellybean" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="vp" revision="master" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -290,14 +290,14 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jellybean" />
-  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Calendar" name="ParanoidAndroid/android_packages_apps_Calendar" remote="github" revision="jellybean" />
+  <project path="packages/apps/Browser" name="platform_packages_apps_Browser" remote="vp" revision="master" />
+  <project path="packages/apps/Calculator" name="platform_packages_apps_Calculator" remote="vp" revision="master" />
+  <project path="packages/apps/Calendar" name="platform_packages_apps_Calendar" remote="vp" revision="master" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="ParanoidAndroid/android_packages_apps_Contacts" remote="github" revision="jellybean" />
-  <project path="packages/apps/DeskClock" name="ParanoidAndroid/android_packages_apps_DeskClock" remote="github" revision="jellybean" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="vp" revision="master" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="vp" revision="master" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
@@ -319,7 +319,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="ParanoidAndroid/android_packages_inputmethods_LatinIME" remote="github" revision="jellybean"/>
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="vp" revision="master"/>
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
@@ -372,7 +372,7 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/security" name="platform/system/security" remote="aosp" revision="66702f7263eb7e30a4596135bb18443997bc24cf"  />
+  <project path="system/security" name="platform/system/security" remote="vp" revision="master"  />
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
