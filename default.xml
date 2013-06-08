@@ -268,7 +268,7 @@
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="vp" revision="master" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
