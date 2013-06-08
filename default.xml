@@ -60,7 +60,6 @@
   <project path="external/libncurses" name="platform_external_libncurses" remote="vp" revision="master" />
   <project path="external/nano" name="platform_external_nano" remote="vp" revision="master" />
   <project path="external/rsync" name="platform_external_rsync" remote="vp" revision="master" />
-  <project path="external/vim" name="platform_external_vim" remote="vp" revision="master" />
   <project path="external/wpa_supplicant" name="platform_external_wpa_supplicant" remote="vp" revision="master" />
   <project path="hardware/atheros" name="platform_hardware_atheros" remote="vp" revision="master" />
   <project path="hardware/gpsshim" name="platform_hardware_gpsshim" remote="vp" revision="master" />
